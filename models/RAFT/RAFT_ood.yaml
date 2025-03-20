@@ -1,0 +1,15 @@
+project_name: RAFT_ood_12
+
+# Setup environment
+seed: 42
+cudnn_enabled: False
+allow_tf32: False
+num_threads: 
+
+
+# RAFT 
+model_path: models/raft-ofb-ood.pth
+iters: 12
+small: False
+mixed_precision: False
+alternate_corr: False

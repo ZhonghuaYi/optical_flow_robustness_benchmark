@@ -1,0 +1,11 @@
+# user specified files
+data/
+outputs/
+temp/
+*.log
+
+# python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
